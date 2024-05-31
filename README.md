@@ -1,8 +1,8 @@
 # Facial Recognition Program
 This python project was designed to eventually be used as a security system at the users home or other building. It will be used to notify the user if a person is at the door and if that person is a family member, colleague, friend, or an unknown person. 
 ## Project Description
-buildDataset.py is the first step which creates a folder and fills it with images of a person that the user wants the camera to recognize.
-faceEncodings.py is the second step which loops through all the images in the dataset and finds the facial embedding of every person.
+buildDataset.py is the first step which creates a folder and fills it with images of a person that the user wants the camera to recognize.  
+faceEncodings.py is the second step which loops through all the images in the dataset and finds the facial embedding of every person.  
 recognizeFaces.py is the final program which runs constantly, finds the facial encoding of the users currently in the view of the camera, and compares them to the facial encodings in the dataset.
 
 The features used to create this project are:  

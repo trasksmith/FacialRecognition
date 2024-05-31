@@ -6,8 +6,8 @@ faceEncodings.py is the second step which loops through all the images in the da
 recognizeFaces.py is the final program which runs constantly, finds the facial encoding of the users currently in the view of the camera, and compares them to the facial encodings in the dataset.
 
 The features used to create this project were:  
-      OpenCV: Used for video, image manipulation, displaying imformation  
-  facial_recognition: Used to find faces, encode faces, and compare faces  
+  - OpenCV: Used for video, image manipulation, displaying imformation  
+  -facial_recognition: Used to find faces, encode faces, and compare faces  
   pickle: Used for saving the facial encodings  
   haarcascade_frontalface_default.xml: Used for finding face location for bounding boxes  
 

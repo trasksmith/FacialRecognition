@@ -5,7 +5,7 @@ buildDataset.py is the first step which creates a folder and fills it with image
 faceEncodings.py is the second step which loops through all the images in the dataset and finds the facial embedding of every person.
 recognizeFaces.py is the final program which runs constantly, finds the facial encoding of the users currently in the view of the camera, and compares them to the facial encodings in the dataset.
 
-The features used to create this project are:__
+The features used to create this project are:  
   OpenCV: Used for video, image manipulation, displaying imformation__
   facial_recognition: Used to find faces, encode faces, and compare faces__
   pickle: Used for saving the facial encodings__

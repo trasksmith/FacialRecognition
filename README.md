@@ -9,7 +9,7 @@ The features used to create this project were:
   - OpenCV: Used for video, image manipulation, displaying imformation  
   - facial_recognition: Used to find faces, encode faces, and compare faces  
   - pickle: Used for saving the facial encodings  
-  - haarcascade_frontalface_default.xml: Used for finding face location for bounding boxes  
+  - haarcascade_frontalface_default.xml: Created by Rainer Lienhart and used for finding face location for bounding boxes  
 
 The next steps will be to add a notification system which alerts the user who is at the door or if it is an unknown person
 ## Credits
